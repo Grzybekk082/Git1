@@ -1,0 +1,147 @@
+body 
+{
+ margin: 0;
+display: flex;
+
+justify-content: center;
+}
+.container
+{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: lightgray;
+    flex-direction: column;
+}
+
+.top-content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+.top
+{
+    display: flex;
+    width: 100%;
+    height: 520px;
+    background-color: #2a3fb8;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo
+{
+height: 70px;
+width: 100%;
+display: flex;
+max-width: 2000px;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+
+}
+
+.log,.val,.country,.support,.add,.sign,.log-in
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+   font-size: 20px;
+font-weight: bold;
+}
+
+.log
+{
+margin-right: 40px;
+width: 40%;
+font-size: 44px;
+justify-content: flex-start;
+font-family: display-font;
+}
+
+.val,.country,.support
+{
+    width: 5%;
+}
+
+.add
+{
+width: 8%;
+}
+
+.log-in,.sign
+{
+width: 13.5%;
+background-color: aliceblue;
+border-radius: 5px;
+padding: 3px;
+margin:3px;
+height: 40px;
+font-weight: 200;
+}
+
+.mid-log
+{
+    width: 100%;
+    height: 380px;
+}
+
+.text-place
+{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    
+}
+
+.place
+{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(250, 203, 74);
+    border-radius: 5px;
+    position: relative;
+    top:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.384) ;
+    max-width: 900px;
+   
+}
+
+.box,.but
+{
+    display: flex;
+    width: calc(100%/3);
+    height: 95%;
+    background-color: rgb(243, 243, 243);
+    
+    margin: 3px 2px;
+    border-radius: 5px;
+}
+
+.but
+{
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    background-color:#2a3fb8 ;
+    font-size: 25px;
+}
+
+.country>img
+{
+    width: 200px;
+}
